@@ -1,0 +1,128 @@
+/* Copyright © 2016 Fateh Khalsa */
+/* Main Stylesheet */
+
+body {
+	background: #363636;
+}
+
+/* Topbar */
+#topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.6rem 1rem;
+	background: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	z-index: 10;
+}
+
+#topbar .title {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#topbar .title .title-name,
+#topbar .title .title-description {
+	display: block;
+}
+
+#topbar .title .title-description {
+	padding-top: 0.08rem;
+	font-size: 0.9rem;
+	color: #a0a0a0;
+}
+
+#topbar .navbar {
+	padding-top: 0.5rem;
+	float: right;
+}
+
+/* Navbar */
+.navbar {
+	margin: 0;
+	list-style: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 0 0.5rem;
+	color: #c7c7c7;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out;
+}
+
+.navbar li:hover { color: #a0a0a0; }
+.navbar li.selected { color: #a0a0a0; }
+.navbar li.selected:hover { color: #8d8d8d; }
+
+/* Pages */
+.page {
+	position: relative;
+	background: rgba(0, 0, 0, 0.2);
+	/*transition: background 0.1s ease-in-out;*/	/* Animates background scroll-fade transitions */
+}
+
+.page > img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -10;
+	opacity: 0;
+	transition: opacity 2s ease-in-out 0.85s;
+}
+
+.page.current-page > img { opacity: 1; }
+
+.page .content {
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	width: 60%;
+	max-height: 75%;
+	transform: translate(-50%, -50%);
+	line-height: 22px;
+	color: #ffffff;
+	overflow-y: scroll;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 2s ease-in-out;
+}
+
+.page.visible .content {
+	opacity: 1;
+}
+
+/* Other Elements */
+#next-page-button {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	color: #ffffff;
+	font-size: 50px;
+	opacity: 0.25;
+	cursor: pointer;
+	transform: scale(5.0, 1.0);
+	transition: opacity 0.45s ease-in-out;
+}
+
+#next-page-button:hover { opacity: 0.75; }
+
+.thumbnail {
+	display: inline;
+	max-width: 80%;
+	height: auto;
+	margin: 0 10%;
+    padding: 3px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+}
