@@ -75,6 +75,12 @@ function _scrollToPage($page) {
 		$('html, body').animate({scrollTop: $page.offset().top}, PAGESCROLL_ANIMATION_SPEED);
 		$('.page').removeClass('current-page');
 		$page.addClass('current-page');
+		if ($page.attr('id') == $('.page').last().attr('id')) {
+			$('#next-page-button').addClass('disabled');
+		}
+		else {
+			$('#next-page-button').removeClass('disabled');
+		}
 	}
 	// Disable page scrolling temporarily - prevents infinite scroll loop
 	PAGESCROLL_DISABLED = true;
