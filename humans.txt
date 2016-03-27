@@ -1,0 +1,24 @@
+/* Single-Page Site Template Design - Copyright © 2016 Fateh Khalsa */
+/* Site template designed and coded by Fateh Singh Khalsa - fskhalsa@gmail.com */
+/* Available for use under the MIT License (for more info see /LICENSE.txt) */
+/* humanstxt.org */
+
+/* SITE */
+	Standards: HTML5, CSS3, Javascript
+	Components: Pure.css Web Framework, jQuery, isOnScreen.js
+	Software: Sublime Text 3, Git, Google Chrome, GIMP, imageOptim
+
+/* PHOTOGRAPHY */
+	High-res background imagery from Unsplash (http://unsplash.com); used under the Creative Commons Zero license (free for all uses)
+		** Check it out, it's awesome! **
+
+	Image Attributions ('cause these photographers have worked hard!):
+	- First Page: Photo by Andrew Ridley - taken in Quiraing, Portree, United Kingdom
+	- Second Page: Photo by Steve Carter - taken in Crescent City, California, United States
+	- Third Page: Photo by Ales Krivec - location unknown
+	- Fourth Page: Photo by Jordan McQueen - taken at Glacier Point, Yosemite Valley, United States
+
+	All other images in this template are used purely as examples, and should not be re-used or distributed without permission from their respective owners
+
+/* PEOPLE */
+	Template design, development, and coding by Fateh Singh Khalsa - fskhalsa@gmail.com
