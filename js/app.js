@@ -19,6 +19,7 @@ _setPageHeights();
 
 $(window).resize(function(event) {
 	_setPageHeights();
+	_scrollToPage($('.page.current-page'));
 });
 
 function _setPageHeights() {
