@@ -5,6 +5,13 @@ body {
 	background: #363636;
 }
 
+a {
+	color: #cccccc;
+	transition: color 0.4s ease-in-out;
+}
+
+a:hover { color: #b8b8b8; }
+
 /* Topbar */
 #topbar {
 	position: fixed;
