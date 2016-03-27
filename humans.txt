@@ -1,6 +1,6 @@
 /* Single-Page Site Template Design - Copyright © 2016 Fateh Khalsa */
 /* Site template designed and coded by Fateh Singh Khalsa - fskhalsa@gmail.com */
-/* Available for use under the MIT License (for more info see /LICENSE.txt) */
+/* Available for use under the MIT License (for more info see /LICENSE - Site Template.txt) */
 /* humanstxt.org */
 
 /* SITE */
@@ -9,7 +9,7 @@
 	Software: Sublime Text 3, Git, Google Chrome, GIMP, imageOptim
 
 /* PHOTOGRAPHY */
-	High-res background imagery from Unsplash (http://unsplash.com); used under the Creative Commons Zero license (free for all uses)
+	High-res background imagery from Unsplash (http://unsplash.com) - used under the Creative Commons Zero license (free for all uses)
 		** Check it out, it's awesome! **
 
 	Image Attributions ('cause these photographers have worked hard!):
