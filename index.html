@@ -108,7 +108,7 @@
 		function _fixLinks(elements, attrName) {
 			for (var i = elements.length - 1; i >= 0; i--) {
 				var attr = elements[i].getAttribute(attrName);
-				if (attr.match(/^[\/]\w/)) { elements[i].setAttribute(attrName, siteBaseURL + attr); }
+				if (attr.match(/^[\/]\w/)) { elements[i].setAttribute(attrName, '/' + siteBaseURL + attr); }
 			}
 		}
 	</script>
